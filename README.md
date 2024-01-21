@@ -2,22 +2,18 @@
 description: 基于nacos注册中心实现Prometheus的动态发现...
 ---
 
-# Prometheus+Nacos动态监控发现
-
-
+# 1 Prometheus+Nacos动态监控发现
 
 ## 准备环境
 
 * [x] 已部署Prometheus
 * [x] 已部署Nacos
 
-
-
 ## 整合步骤
 
 * 创建nacos命名空间，如Prometheus
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * 创建一个服务发现配置json文件，例如
 
@@ -59,4 +55,4 @@ description: 基于nacos注册中心实现Prometheus的动态发现...
 
 * 重启Prometheus，再nacos的Prometheus命名空间下添加.json文件，查看Prometheus面板Status->Targets，观察是否生效
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
