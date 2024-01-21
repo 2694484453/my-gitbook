@@ -1,2 +1,0 @@
-# 3 Nginx+Nacos的config配置
-
