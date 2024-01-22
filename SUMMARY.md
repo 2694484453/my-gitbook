@@ -26,4 +26,4 @@
 
 ## 🧰 仓库与托管
 
-* [Gitee/Github/Gitlab托管chart](cang-ku-yu-tuo-guan/giteegithubgitlab-tuo-guan-chart.md)
+* [Git仓库托管chart](cang-ku-yu-tuo-guan/git-cang-ku-tuo-guan-chart.md)
