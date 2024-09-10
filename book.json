@@ -1,0 +1,41 @@
+{
+  "language": "zh-hans",
+  "plugins": [
+    "-sharing",
+    "-lunr",
+    "-search",
+    "-highlight",
+    "search-pro",
+    "chapter-fold",
+    "intopic-toc",
+    "prism",
+    "splitter",
+    "back-to-top-button",
+    "copy-code-button",
+    "hide-element",
+    "insert-logo",
+    "custom-favicon",
+    "expandable-chapters",
+    "lightbox"
+  ],
+  "pluginsConfig": {
+    "intopic-toc": {
+      "label": "本页导航"
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ]
+    },
+    "hide-element": {
+      "elements": [
+        ".gitbook-link"
+      ]
+    },
+    "insert-logo": {
+      "url": "https://open-iot.worthcloud.net/assets/logo.a7c47629.png",
+      "style": "background:none;max-height:50px"
+    },
+    "favicon": "favicon.ico"
+  }
+}
