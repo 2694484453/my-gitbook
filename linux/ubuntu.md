@@ -170,12 +170,11 @@ WantedBy=multi-user.target
 ### 分区完成，查询所有设备的文件系统类型            
 `blkid` 
 
-##挂载
+### 挂载
 #挂载需要将硬盘挂载在挂载点上（一个文件夹），但是mount并不会创建文件夹，所以在使用mount命令之前首先创建挂载点
 #--查看/dev/sfdb1的格式
-blkid
-
-#                                                  
+`blkid`
+ 
 
 mkdir /mnt/storage
 将新分区 /dev/vdb1 挂载到/mnt/storage挂载点下
