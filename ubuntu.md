@@ -31,7 +31,6 @@
 
 ### 镜像源地址
 
-<span>
 deb https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 
@@ -47,7 +46,6 @@ deb-src https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted univers
 
 deb https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-</span>
 
 ### 更新镜像源
 
