@@ -1,0 +1,18 @@
+  "plugins": [
+    "-sharing",
+    "-lunr",
+    "-search",
+    "-highlight",
+    "search-pro",
+    "chapter-fold",
+    "intopic-toc",
+    "prism",
+    "splitter",
+    "back-to-top-button",
+    "copy-code-button",
+    "hide-element",
+    "insert-logo",
+    "custom-favicon",
+    "expandable-chapters",
+    "lightbox"
+  ],
