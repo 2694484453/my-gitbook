@@ -12,4 +12,6 @@
 
 * [ubuntu](linux/ubuntu.md)
 
+* [包镜像源](linux/sources.md)
+
 * [git](git.md)
