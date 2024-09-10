@@ -31,6 +31,7 @@
 
 ### 镜像源地址
 
+```
 deb https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 
@@ -46,6 +47,7 @@ deb-src https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted univers
 
 deb https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+```
 
 ### 更新镜像源
 
@@ -154,18 +156,18 @@ WantedBy=multi-user.target
 `find / -name kubectl`  或者
 `whereis xxx`
 ### 压缩、解压：
-#压缩     
+### 压缩     
 `tar -zcvf xxx.tar.gz sourcedir`        
-#解压     
+### 解压     
 `tar -zxvf xxx.tar.gz`
 文件挂载：       
-#查看硬盘挂载情况       
+### 查看硬盘挂载情况       
 `fdisk -l`          
-#查看当前分区情况       
+### 查看当前分区情况       
 `df -l`     
-给新硬盘添加新分区           
+### 给新硬盘添加新分区           
 `fdisk /dev/vdb`        
-分区完成，查询所有设备的文件系统类型            
+### 分区完成，查询所有设备的文件系统类型            
 `blkid` 
 
 ##挂载
