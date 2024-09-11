@@ -40,7 +40,7 @@
 
 ### 批量模糊查找镜像仓库源
 
-`docker images -f reference=111/222/*`
+`docker images -f reference=111/222/*`      
 `docker images -f reference=*/222/*`
 
 ### 批量查找镜像id
@@ -54,9 +54,9 @@
 ### 批量删除镜像
 
 `docker rmi $(docker image ls -a -q 111/222/333)`       
-`docker rmi $(docker image ls -a -q -f reference=*/222/*)`
+`docker rmi $(docker image ls -a -q -f reference=*/222/*)`      
 
-###
+### 其他
 ```
 Usage: docker images [OPTIONS] [REPOSITORY[:TAG]]
 Options:
