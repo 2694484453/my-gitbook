@@ -11,6 +11,7 @@
 * [etcd](etcd.md)
 
 * [mysqldump](mysql/mysqldump.md)
+* [mysql](mysql/mysql.md)
 
 * [ubuntu](linux/ubuntu.md)
 
